@@ -1,106 +1,119 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohamed Imran | Portfolio</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #1f2937;
-            color: white;
-            padding: 30px 20px;
-            text-align: center;
-        }
-        section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        h2 {
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 10px;
-            color: #1f2937;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .contact a {
-            color: #1f2937;
-            text-decoration: none;
-        }
-        footer {
-            background-color: #1f2937;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Imran - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .typewriter h1 {
+      overflow: hidden;
+      border-right: .15em solid #fff;
+      white-space: nowrap;
+      margin: 0 auto;
+      animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+      max-width: 100%;
+      font-size: 2rem;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: white; }
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: #2c5364;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      color: #555;
+    }
+    a {
+      color: #2c5364;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-
-    <header>
-        <h1>Mohamed Imran</h1>
-        <p>B.Tech Student | Tech Enthusiast | Cybersecurity Learner</p>
-    </header>
-
-    <section>
-        <div class="card">
-            <h2>About Me</h2>
-            <p>
-                I'm a final-year B.Tech student at Sri Manakula Vinayagar Engineering College, passionate about technology, problem-solving, and innovation.
-                I enjoy exploring data-driven decision-making and cybersecurity, and I'm constantly seeking to grow and contribute meaningfully to any team or organization.
-            </p>
-        </div>
-
-        <div class="card">
-            <h2>Skills</h2>
-            <ul>
-                <li>Python</li>
-                <li>Java (beginner)</li>
-                <li>Graphic Design</li>
-                <li>Data Analysis</li>
-                <li>Communication & Leadership</li>
-                <li>Teamwork</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h2>Final Year Project</h2>
-            <p>
-                <strong>Title:</strong> Social Media Forensics: Adaptive Cyberbullying-Related Hate Speech Detection<br>
-                <strong>Tech:</strong> MLP, Neutrosophic Logic, SMOTE, TF-IDF, BERT<br>
-                <strong>Improvements:</strong> Multilingual detection, real-time monitoring, LLM integration, OCR for meme-based hate
-            </p>
-        </div>
-
-        <div class="card">
-            <h2>Contact</h2>
-            <p class="contact">
-                Email: <a href="mailto:mohamedimram.mi1035@gmail.com">mohamedimram.mi1035@gmail.com</a><br>
-                GitHub: <a href="https://github.com/DonLee1035" target="_blank">DonLee1035</a><br>
-                LinkedIn: <a href="https://www.linkedin.com/in/mohamed-imran-3b851725b/" target="_blank">Mohamed Imran</a>
-            </p>
-        </div>
-    </section>
-
-    <footer>
-        © 2025 Mohamed Imran. All rights reserved.
-    </footer>
-
+  <header>
+    <div class="typewriter">
+      <h1>Hi, I'm Mohamed Imran | Engineer | Tech Enthusiast | Creative Thinker</h1>
+    </div>
+  </header>
+  <div class="container">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I’m a passionate engineering student with a flair for technology, data, design, and innovation. I enjoy solving problems, working in teams, and bringing creative solutions to life.</p>
+    </div>
+    <div class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>Java (Beginner)</li>
+        <li>Graphic Design</li>
+        <li>Data Analysis</li>
+        <li>Communication & Leadership</li>
+        <li>Languages: English, Hindi, Urdu, Tamil, Basic French</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Project Highlight</h2>
+      <p><strong>Social Media Forensics:</strong> Built a hate speech & cyberbullying detection model using MLP + Neutrosophic logic, with over 95% accuracy. Integrated multilingual support, meme detection, and real-time dashboard.</p>
+    </div>
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:mohamedimram.mi1035@gmail.com">mohamedimram.mi1035@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/DonLee1035" target="_blank">DonLee1035</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/mohamed-imran-3b851725b/" target="_blank">Mohamed Imran</a></p>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Mohamed Imran
+  </footer>
 </body>
 </html>
